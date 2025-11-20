@@ -2,13 +2,13 @@ import io
 def menu():
     pass
 def main():
-    while keep_going.lower() = "y" or keep_going.lower() == "yes":
+    while keep_going.lower() == "y" or keep_going.lower() == "yes":
         choice = menu()
         if choice == 1:
             add_contact()
         if choice == 2:
             search_contact()
-        if choice == 3
+        if choice == 3:
             edit_contact()
         if choice == 4:
             delete_contact()
@@ -66,13 +66,13 @@ def edit_contact():
     option_email = input('Do you want to change your email address(y/n): ')
     
     
-    if option_street.lower = 'y':
+    if option_street.lower == 'y':
         new_street = input('Enter new street address: ')
         
-    elif option_phone.lower = 'y':
+    elif option_phone.lower == 'y':
         new_phone = input('Enter new phone number: ')
         
-    elif option_email.lower = 'y':
+    elif option_email.lower == 'y':
         new_email = input('Enter new email address: ')
        
     else:
@@ -82,7 +82,7 @@ def edit_contact():
         contact_file = open('contact.txt', 'r')
         temp_file = open('temp.txt', 'w')
         
-        name = contact_file.readline()
+        name == contact_file.readline()
         
         while name != '':
             street = contact_file.readline()
@@ -96,13 +96,13 @@ def edit_contact():
             
             if search.lower() == name.lower():
                 temp_file.write(name + '\n')
-                if option_street.lower = 'y':
+                if option_street.lower == 'y':
                     temp_file.write(new_street + '\n')
                     
-                elif option_street.lower = 'y':
+                elif option_street.lower == 'y':
                     temp_file.write(new_phone + '\n')
                     
-                elif option_street.lower = 'y':
+                elif option_street.lower == 'y':
                     temp_file.write(new_email + '\n')
                     
                     
