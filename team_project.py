@@ -2,49 +2,55 @@ def menu():
     #menu accepts no arguments
     #prompts the user to choose an option
     #returns the users choice
-    pass
+    print("1) Add contact\n2) Search contact\n3) Edit contact\n4) Delete contact\n5) Display contacts")
+    return input("\nEnter your choice: ")
     
 def main():
     #accepts no arguments
     #runs the contact program
     #calls all other programs
-    while keep_going.lower() = "y" or keep_going.lower() == "yes":
+    keep_going = "y"
+    while keep_going.lower() == "y" or keep_going.lower() == "yes":
         choice = menu()
-        if choice == 1:
+        if choice == "1":
             add_contact()
-        if choice == 2:
+        if choice == "2":
             search_contact()
-        if choice == 3
+        if choice == "3":
             edit_contact()
-        if choice == 4:
+        if choice == "4":
             delete_contact()
-        if choice == 5:
+        if choice == "5":
             display_contact()
-        keep_going == input("\nDo you want to use the menu again if so enter y or yes: ")
-        pass
+        keep_going = input("\nDo you want to use the menu again if so enter y or yes: ")
     
 def add_contact():
     #accepts no arguements
-    #adds a contact to the contact list\
+    #adds a contact to the contact list
     pass
+    
     
 def search_contact():
     #accepts no arguements
     #searches and pulls info for a specific contact
     #displays the info
     pass
+   
 
 def edit_contact():
     #accepts no arguements
     #edits a contacts info
     pass
+  
 
 def delete_contact():
     #accepts no arguements
     #deletes a contact
     pass
+   
 
 def display_contact():
     #accepts no arguements
     #displays all contacts
     pass
+   
