@@ -7,7 +7,7 @@ Our program creates a list of contacts
 ### <Contact Manager> Flowchart
 ```mermaid
 graph TD;
-  Mqin-->Add;
+  Main-->Add;
   Main-->Search;
   Main-->Edit;
   Main-->Delete;
