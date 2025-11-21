@@ -7,12 +7,11 @@ Our program creates a list of contacts
 ### <Contact Manager> Flowchart
 ```mermaid
 graph TD;
-  A-->Main;
-  A-->Add;
-  A-->Search;
-  A-->Edit;
-  A-->Delete;
-  A-->Display;
+  Mqin-->Add;
+  Main-->Search;
+  Main-->Edit;
+  Main-->Delete;
+  Main-->Display;
 ```
 
 #### Function Diagrams
